@@ -7,19 +7,75 @@
   <title>Page not found</title>
   <meta name="robots" content="noindex">
   <script>
-    // GitHub Pages SPA fallback for BrowserRouter
-    // This fetches the real index.html, injects a tiny script that sets
-    // history to the original request path, then writes the modified HTML
-    // so the SPA boots with the correct URL and Router can handle it.
+    // GitHub Pages SPA fallback for BrowserRouter (robust for repo/subpath hosting)
     (function () {
       var originalPath = location.pathname + location.search + location.hash;
-      // Keep the path safe for injection
       var safePath = originalPath.replace(/'/g, "\\'");
-      fetch('/index.html')
-        .then(function (r) { return r.text(); })
-        .then(function (html) {
+
+      // Try to locate index.html by walking up the path: ./index.html, ../index.html, ../../index.html ...
+      function tryFindIndex(maxDepth) {
+        var attempts = [];
+        for (var i = 0; i <= maxDepth; i++) {
+          var prefix = i === 0 ? './' : Array(i + 1).join('../');
+          attempts.push(prefix + 'index.html');
+        }
+        // Also try absolute root as last resort
+        attempts.push('/index.html');
+        return attempts;
+      }
+
+      (async function locateAndLoad() {
+        var candidates = tryFindIndex(8);
+        var foundUrl = null;
+        for (var i = 0; i < candidates.length; i++) {
+          try {
+            var r = await fetch(candidates[i], { method: 'GET' });
+            if (r.ok) {
+              // Normalize to a path that can be used as base
+              var resolved = new URL(candidates[i], location.href);
+              foundUrl = resolved.pathname + resolved.search + resolved.hash;
+              break;
+            }
+          } catch (e) {
+            // ignore and try next
+          }
+        }
+
+        if (!foundUrl) {
+          // give up and fallback to root
+          window.location.href = '/';
+          return;
+        }
+
+        // Derive base path from foundUrl (ensure it ends with /)
+        var basePath = foundUrl.replace(/index\.html([#?].*)?$/, '');
+        if (basePath === '') basePath = '/';
+
+        // Update loader image src so it works in subpath hosting
+        try {
+          var logo = document.querySelector('.logo-img');
+          if (logo) {
+            // If basePath is '/', use '/logo-with-shadow.png' for origin-root; else prefix
+            logo.src = (basePath === '/' ? '/' : basePath) + 'logo-with-shadow.png';
+          }
+        } catch (e) {}
+
+        // Fetch the index HTML from the detected base
+        try {
+          var idx = await fetch(foundUrl, { method: 'GET' });
+          var html = await idx.text();
+
+          // Replace relative ./assets/ references with the computed basePath + assets/
+          try {
+            // Ensure basePath ends with '/'
+            if (basePath.slice(-1) !== '/') basePath += '/';
+            var assetsBase = basePath === '/' ? '/assets/' : basePath + 'assets/';
+            html = html.replace(/(src|href)=("|')\.\/assets\//g, '$1=$2' + assetsBase);
+            // Also handle occurrences without the ./ (rare), e.g. href="assets/..."
+            html = html.replace(/(src|href)=("|')assets\//g, '$1=$2' + assetsBase);
+          } catch (e) {}
+
           var inject = "<script>history.replaceState(null,null,'" + safePath + "');</" + "script>";
-          // Try to inject right after <head> so it runs before other scripts
           if (/<head[^>]*>/i.test(html)) {
             html = html.replace(/<head([^>]*)>/i, function (m) { return m + inject; });
           } else if (/<body[^>]*>/i.test(html)) {
@@ -27,102 +83,52 @@
           } else {
             html = inject + html;
           }
+
           document.open();
           document.write(html);
           document.close();
-        })
-        .catch(function () {
-          // Fallback: redirect to root
+        } catch (e) {
           window.location.href = '/';
-        });
+        }
+      })();
     })();
   </script>
 </head>
 
 <body>
   <style>
-    /* Minimal loader styles approximating Loader.jsx visuals */
-    :root {
-      --green: #85c22e
-    }
+    /* Loader styles tuned to match src/components/Loader.jsx
+       - border widths, p-1 padding, background, and prefers-reduced-motion
+    */
+    :root { --green: #85c22e; }
+    html, body { height: 100%; margin: 0; }
 
-    html,
-    body {
-      height: 100%;
-      margin: 0
-    }
+    .loader-wrap { height: 100vh; display:flex; align-items:center; justify-content:center; background: #000; }
 
-    .loader-wrap {
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #000
-    }
+    .loader-inner { display:flex; align-items:center; gap:12px; color:#cbd5e1; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
 
-    .loader-inner {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      color: #cbd5e1;
-      font-family: system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif
-    }
+    /* size matches LoaderOverlay default (72px) */
+    .logo-holder { position: relative; width:72px; height:72px; }
 
-    .logo-holder {
-      position: relative;
-      width: 72px;
-      height: 72px
-    }
+    /* ring matches `border-4` in Loader.jsx */
+    .ring { position:absolute; inset:0; border:4px solid rgba(133,194,46,0.20); border-top-color: var(--green); border-radius:9999px; box-sizing:border-box; animation: spin 1s linear infinite; }
 
-    .ring {
-      position: absolute;
-      inset: 0;
-      border: 6px solid rgba(133, 194, 46, 0.15);
-      border-top-color: var(--green);
-      border-radius: 9999px;
-      box-sizing: border-box;
-      animation: spin 1s linear infinite
-    }
+    /* soft pulse behind the ring */
+    .ping { position:absolute; inset:0; border-radius:9999px; background: rgba(133,194,46,0.10); animation: ping 1.25s cubic-bezier(.4,0,.6,1) infinite; }
 
-    .ping {
-      position: absolute;
-      inset: 0;
-      border-radius: 9999px;
-      background: rgba(133, 194, 46, 0.08);
-      animation: ping 1.5s cubic-bezier(.4, 0, 0.6, 1) infinite
-    }
+    /* center logo: p-1 equals 4px padding */
+    .logo-img { position:relative; z-index:10; width:100%; height:100%; object-fit:contain; border-radius:9999px; padding:4px; background: rgba(0,0,0,0.7); }
 
-    .logo-img {
-      position: relative;
-      z-index: 10;
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      border-radius: 9999px;
-      padding: 6px;
-      background: rgba(0, 0, 0, 0.6)
-    }
+    /* text matching sizes/colors used in Loader.jsx */
+    .loader-label { margin-left:12px; font-size:14px; color:#94a3b8; }
+    .loader-sub { font-size:12px; color:#64748b; margin-top:4px; }
 
-    @keyframes spin {
-      to {
-        transform: rotate(360deg)
-      }
-    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes ping { 0% { transform: scale(.9); opacity:1 } 75% { transform: scale(1.6); opacity:0 } 100% { opacity:0 } }
 
-    @keyframes ping {
-      0% {
-        transform: scale(.9);
-        opacity: 1
-      }
-
-      75% {
-        transform: scale(1.6);
-        opacity: 0
-      }
-
-      100% {
-        opacity: 0
-      }
+    /* Respect user preference for reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      .ring, .ping { animation: none !important; }
     }
   </style>
 
@@ -131,7 +137,7 @@
       <div class="logo-holder" aria-hidden>
         <div class="ring"></div>
         <div class="ping"></div>
-        <img src="./logo-with-shadow.png" alt="Loading" class="logo-img"
+        <img src="/logo-with-shadow.png" alt="Loading" class="logo-img"
           onerror="(function(el){var p=document.createElement('div');p.style.width='100%';p.style.height='100%';p.style.borderRadius='9999px';p.style.background='linear-gradient(135deg,#85c22e,#a0e933)';el.parentNode.replaceChild(p,el);})(this)" />
       </div>
       <div>
