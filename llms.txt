@@ -8,7 +8,7 @@ Contact: +92-335-5885039 · infusiblecoder@gmail.com · https://infusiblecoder.c
 
 ## Core pages
 
-- [Software Company in Kohat](https://infusiblecoder.com/): Infusible Coder Pvt Ltd is a software company and IT training center in Kohat, Pakistan: custom software, AI, web and mobile apps. Call +92 335 5885039.
+- [Software House in Kohat](https://infusiblecoder.com/): Infusible Coder is a software house and software company in Kohat, Pakistan. We build custom software, AI, web and mobile apps. Call +92 335 5885039.
 - [About Infusible Coder | Software House in Kohat](https://infusiblecoder.com/about/): Meet the team behind Infusible Coder Pvt Ltd: an AI and software house in Kohat, Pakistan, and an IT training center open to everyone.
 - [Portfolio | App & Web Projects by Infusible Coder](https://infusiblecoder.com/portfolio/): Mobile apps, e-commerce platforms and web systems built by Infusible Coder Pvt Ltd, a software house in Kohat, Pakistan. See our recent work.
 - [Blog | AI & Software Development Guides](https://infusiblecoder.com/blog/): Practical guides on AI, generative AI, app costs and starting a tech career in Pakistan: from the Infusible Coder team in Kohat.
@@ -42,14 +42,14 @@ Contact: +92-335-5885039 · infusiblecoder@gmail.com · https://infusiblecoder.c
 - [KLO: Mobile Application](https://infusiblecoder.com/portfolio/klo/): Mobile Application built by Infusible Coder, a software house in Kohat, Pakistan. See the project and how we build utility products.
 - [VPN: Mobile Application](https://infusiblecoder.com/portfolio/vpn/): Mobile Application built by Infusible Coder, a software house in Kohat, Pakistan. See the project and how we build security products.
 - [Grocery App: Grocery Shopping Application](https://infusiblecoder.com/portfolio/grocery-app/): Grocery Shopping Application built by Infusible Coder, a software house in Kohat, Pakistan. See the project and how we build e-commerce products.
-- [News App: News Application](https://infusiblecoder.com/portfolio/news-app/): News Application built by Infusible Coder, a software house in Kohat, Pakistan. See the project and how we build news products.
+- [News App: Breaking News Reader App](https://infusiblecoder.com/portfolio/news-app/): Breaking News Reader App built by Infusible Coder, a software house in Kohat, Pakistan. See the project and how we build news products.
 - [Owner App: Business Management App](https://infusiblecoder.com/portfolio/owner-app/): Business Management App built by Infusible Coder, a software house in Kohat, Pakistan. See the project and how we build business products.
 - [Plant App: Plant Care Application](https://infusiblecoder.com/portfolio/plant-app/): Plant Care Application built by Infusible Coder, a software house in Kohat, Pakistan. See the project and how we build lifestyle products.
 - [Food & Laundry Apps: Food Delivery and Laundry Services](https://infusiblecoder.com/portfolio/food-laundry-apps/): Food Delivery and Laundry Services built by Infusible Coder, a software house in Kohat, Pakistan. See the project and how we build service products.
 - [Alarm & Goal Tracking: Productivity Applications](https://infusiblecoder.com/portfolio/alarm-goal-tracking/): Productivity Applications built by Infusible Coder, a software house in Kohat, Pakistan. See the project and how we build productivity products.
 - [Mrp Mile & Thereza Apps: Business and Lifestyle Applications](https://infusiblecoder.com/portfolio/mrp-mile-thereza-apps/): Business and Lifestyle Applications built by Infusible Coder, a software house in Kohat, Pakistan. See the project and how we build business products.
 - [Finnal Grocery App: Grocery Shopping Promotion](https://infusiblecoder.com/portfolio/final-grocery-promo/): Grocery Shopping Promotion built by Infusible Coder, a software house in Kohat, Pakistan. See the project and how we build e-commerce products.
-- [Newsy App: News Application](https://infusiblecoder.com/portfolio/newsy-app-2/): News Application built by Infusible Coder, a software house in Kohat, Pakistan. See the project and how we build news products.
+- [Newsy App: Personalised News Feed App](https://infusiblecoder.com/portfolio/newsy-app-2/): Personalised News Feed App built by Infusible Coder, a software house in Kohat, Pakistan. See the project and how we build news products.
 
 ## Blog
 
@@ -60,11 +60,11 @@ Contact: +92-335-5885039 · infusiblecoder@gmail.com · https://infusiblecoder.c
 - [Generative AI for Small Businesses in Pakistan](https://infusiblecoder.com/blog/generative-ai-for-small-businesses-in-pakistan/): Nine concrete ways Pakistani shops, clinics, schools and agencies are using generative AI today: with realistic costs, what works, and what quietly fails.
 - [Build Your First AI App With an LLM API](https://infusiblecoder.com/blog/build-your-first-ai-app-with-an-llm-api/): A hands-on beginner's guide to building a working AI application with a large language model API: architecture, prompts, cost control, safety and deployment.
 - [RAG Explained: Build a Document Chatbot](https://infusiblecoder.com/blog/build-a-rag-chatbot-for-your-business-documents/): What retrieval-augmented generation is, how a document chatbot is actually built, where it goes wrong, and what it costs to run for a business in Pakistan.
-- [Web Development Roadmap for Students in Kohat](https://infusiblecoder.com/blog/web-development-roadmap-for-students-in-kohat/): A realistic web development roadmap for students in Kohat: what to learn in order, how long each stage takes, and how to get your first paid work.
+- [How Kohat Students Can Learn Web Development: Step-by-Step](https://infusiblecoder.com/blog/web-development-roadmap-for-students-in-kohat/): A realistic web development roadmap for students in Kohat: what to learn in order, how long each stage takes, and how to get your first paid work.
 - [Women & Girls in Tech: IT Careers in Khyber Pakhtunkhwa](https://infusiblecoder.com/blog/women-and-girls-in-tech-khyber-pakhtunkhwa/): A practical guide for women and girls in KP starting a tech career: study options, remote work, payments, income expectations and where to get support.
 - [What Does a Mobile App Cost in Pakistan? 2026 Guide](https://infusiblecoder.com/blog/what-does-it-cost-to-build-a-mobile-app-in-pakistan/): What mobile app development really costs in Pakistan: price drivers, realistic ranges by app type, ongoing costs, and how to avoid paying twice.
 - [Python Training in Kohat: Current-Batch Checklist](https://infusiblecoder.com/blog/python-training-kohat-current-batch-checklist/): Considering Python training in Kohat? Use this practical checklist to compare a current batch, ask better questions, and review first-party evidence.
-- [Web, App, UI/UX or Graphic Design Training in Kohat](https://infusiblecoder.com/blog/choose-web-app-ui-ux-graphic-design-training-kohat/): Compare web, app, UI/UX and graphic-design training paths in Kohat by the work involved, questions to ask, and current details to confirm locally.
+- [Which IT Course to Pick in Kohat: Web, App, UI/UX or Design](https://infusiblecoder.com/blog/choose-web-app-ui-ux-graphic-design-training-kohat/): Compare web, app, UI/UX and graphic-design training paths in Kohat by the work involved, questions to ask, and current details to confirm locally.
 - [Prepare for a Software-House Internship in Kohat](https://infusiblecoder.com/blog/prepare-software-house-internship-kohat/): Prepare a clear software-house internship enquiry in Kohat: review the current process, organise work samples, explain your role, and avoid common mistakes.
 
 ## AI news
