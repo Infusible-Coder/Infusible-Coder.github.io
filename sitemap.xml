@@ -2,414 +2,564 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://infusiblecoder.com/</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/about</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/about/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/blog</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/blog/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/courses</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/courses/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/contact</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/contact/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/services/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/internship/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/ai-news/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/archive</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/ai-news/archive/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/courses/full-stack-web-development</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/training/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/training/python-course-kohat/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/training/admissions/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/training/campus/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/training/student-projects/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/policies/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/privacy/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/terms/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/training/policies/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/editorial-policy/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/corrections-complaints/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/services/ai-machine-learning/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/services/web-development/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/services/mobile-app-development/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/services/ui-ux-design/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/services/graphic-design/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/services/custom-software-development/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/courses/full-stack-web-development/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/courses/mobile-app-development</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/courses/mobile-app-development/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/courses/devops-cloud</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/courses/devops-cloud/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/courses/data-science-ai</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/courses/data-science-ai/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/courses/ui-ux-design</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/courses/ui-ux-design/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/courses/graphic-designing</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/courses/graphic-designing/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/courses/java-programming</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/courses/java-programming/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/courses/seo</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/courses/seo/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/courses/social-media-marketing</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/courses/social-media-marketing/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/barber-and-saloon</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/barber-and-saloon/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/medi-care</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/medi-care/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/one-click</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/one-click/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/crypto</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/crypto/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/ecommerce-app</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/ecommerce-app/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/amigo</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/amigo/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/bondee</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/bondee/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/nwed-beauty</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/nwed-beauty/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/adds-classified</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/adds-classified/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/klo</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/klo/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/vpn</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/vpn/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/grocery-app</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/grocery-app/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/news-app</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/news-app/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/owner-app</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/owner-app/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/plant-app</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/plant-app/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/food-laundry-apps</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/food-laundry-apps/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/alarm-goal-tracking</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/alarm-goal-tracking/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/mrp-mile-thereza-apps</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/mrp-mile-thereza-apps/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/final-grocery-promo</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/final-grocery-promo/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/portfolio/newsy-app-2</loc>
-    <lastmod>2026-08-13T19:58:00.568Z</lastmod>
+    <loc>https://infusiblecoder.com/portfolio/newsy-app-2/</loc>
+    <lastmod>2026-08-14T12:00:40.442Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/blog/how-to-start-a-career-in-ai-in-pakistan</loc>
+    <loc>https://infusiblecoder.com/blog/which-coding-course-should-you-take-first/</loc>
+    <lastmod>2026-08-14T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/blog/learning-ai-with-python-what-actually-matters-now/</loc>
+    <lastmod>2026-08-14T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/blog/what-changed-in-ai-this-year-and-what-it-means-for-you/</loc>
+    <lastmod>2026-08-14T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/blog/how-to-start-a-career-in-ai-in-pakistan/</loc>
     <lastmod>2026-01-14T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/blog/generative-ai-for-small-businesses-in-pakistan</loc>
+    <loc>https://infusiblecoder.com/blog/generative-ai-for-small-businesses-in-pakistan/</loc>
     <lastmod>2026-02-03T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/blog/build-your-first-ai-app-with-an-llm-api</loc>
+    <loc>https://infusiblecoder.com/blog/build-your-first-ai-app-with-an-llm-api/</loc>
     <lastmod>2026-03-05T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/blog/build-a-rag-chatbot-for-your-business-documents</loc>
+    <loc>https://infusiblecoder.com/blog/build-a-rag-chatbot-for-your-business-documents/</loc>
     <lastmod>2026-04-09T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/blog/web-development-roadmap-for-students-in-kohat</loc>
+    <loc>https://infusiblecoder.com/blog/web-development-roadmap-for-students-in-kohat/</loc>
     <lastmod>2026-05-12T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/blog/women-and-girls-in-tech-khyber-pakhtunkhwa</loc>
+    <loc>https://infusiblecoder.com/blog/women-and-girls-in-tech-khyber-pakhtunkhwa/</loc>
     <lastmod>2026-06-18T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/blog/what-does-it-cost-to-build-a-mobile-app-in-pakistan</loc>
+    <loc>https://infusiblecoder.com/blog/what-does-it-cost-to-build-a-mobile-app-in-pakistan/</loc>
     <lastmod>2026-07-21T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/gpt-5-release-ai-breakthrough-2025</loc>
+    <loc>https://infusiblecoder.com/blog/python-training-kohat-current-batch-checklist/</loc>
+    <lastmod>2026-08-14T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/blog/choose-web-app-ui-ux-graphic-design-training-kohat/</loc>
+    <lastmod>2026-08-14T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/blog/prepare-software-house-internship-kohat/</loc>
+    <lastmod>2026-08-14T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://infusiblecoder.com/ai-news/gpt-5-release-ai-breakthrough-2025/</loc>
     <lastmod>2025-08-07T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/google-quantum-echoes-breakthrough-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/google-quantum-echoes-breakthrough-2025/</loc>
     <lastmod>2025-10-22T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/claude-enterprise-transformation-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/claude-enterprise-transformation-2025/</loc>
     <lastmod>2025-10-01T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-agents-revolution-automation-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-agents-revolution-automation-2025/</loc>
     <lastmod>2025-11-01T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/multimodal-ai-vision-language-models-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/multimodal-ai-vision-language-models-2025/</loc>
     <lastmod>2025-10-15T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-healthcare-breakthroughs-medicine-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-healthcare-breakthroughs-medicine-2025/</loc>
     <lastmod>2025-10-08T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-safety-regulation-government-policy-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-safety-regulation-government-policy-2025/</loc>
     <lastmod>2025-09-30T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-hardware-chips-geopolitics-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-hardware-chips-geopolitics-2025/</loc>
     <lastmod>2025-11-05T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-cybersecurity-threats-malware-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-cybersecurity-threats-malware-2025/</loc>
     <lastmod>2025-11-05T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-cost-efficiency-breakthroughs-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-cost-efficiency-breakthroughs-2025/</loc>
     <lastmod>2025-09-15T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/stanford-ai-index-2025-comprehensive-insights</loc>
+    <loc>https://infusiblecoder.com/ai-news/stanford-ai-index-2025-comprehensive-insights/</loc>
     <lastmod>2025-08-01T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-education-transformation-digital-skills-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-education-transformation-digital-skills-2025/</loc>
     <lastmod>2025-09-20T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/google-ai-breakthroughs-october-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/google-ai-breakthroughs-october-2025/</loc>
     <lastmod>2025-10-31T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/microsoft-ai-copilot-azure-updates-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/microsoft-ai-copilot-azure-updates-2025/</loc>
     <lastmod>2025-09-30T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-model-competition-frontier-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-model-competition-frontier-2025/</loc>
     <lastmod>2025-11-03T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-future-horizon-2025-vision</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-future-horizon-2025-vision/</loc>
     <lastmod>2025-11-07T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-social-good-global-development-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-social-good-global-development-2025/</loc>
     <lastmod>2025-10-25T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-creativity-human-collaboration-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-creativity-human-collaboration-2025/</loc>
     <lastmod>2025-11-02T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-industry-transformation-manufacturing-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-industry-transformation-manufacturing-2025/</loc>
     <lastmod>2025-10-18T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-transportation-autonomous-vehicles-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-transportation-autonomous-vehicles-2025/</loc>
     <lastmod>2025-11-01T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-ethics-governance-future-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-ethics-governance-future-2025/</loc>
     <lastmod>2025-10-30T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/emerging-ai-technologies-brain-computer-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/emerging-ai-technologies-brain-computer-2025/</loc>
     <lastmod>2025-11-04T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-science-research-breakthrough-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-science-research-breakthrough-2025/</loc>
     <lastmod>2025-10-20T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-finance-banking-transformation-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-finance-banking-transformation-2025/</loc>
     <lastmod>2025-10-25T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://infusiblecoder.com/ai-news/ai-education-learning-transformation-2025</loc>
+    <loc>https://infusiblecoder.com/ai-news/ai-education-learning-transformation-2025/</loc>
     <lastmod>2025-10-28T10:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
