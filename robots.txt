@@ -41,3 +41,4 @@ User-agent: CCBot
 Allow: /
 
 Sitemap: https://infusiblecoder.com/sitemap.xml
+Sitemap: https://infusiblecoder.com/video-sitemap.xml
